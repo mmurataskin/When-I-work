@@ -1,0 +1,264 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7414356000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "stepDefs.LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 184701000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user fills in emailbox with a valid email account",
+            "match": {
+              "location": "stepDefs.LoginStepDefs.the_user_fills_in_emailbox_with_a_valid_email_account()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 98725000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user fills in passwordbox with a valid password",
+            "match": {
+              "location": "stepDefs.LoginStepDefs.the_user_fills_in_passwordbox_with_a_valid_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 134318000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user clicks Log In button",
+            "match": {
+              "location": "stepDefs.LoginStepDefs.the_user_clicks_Log_In_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 118641000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user should be on the Dashboard",
+            "match": {
+              "location": "stepDefs.LoginStepDefs.the_user_should_be_on_the_Dashboard()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-14T22:47:08.185Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2862000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Create an OpenShift on the Scheduler and publish it",
+        "description": "",
+        "id": "create-openshift;create-an-openshift-on-the-scheduler-and-publish-it",
+        "after": [
+          {
+            "result": {
+              "duration": 187115000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 123220000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the user wants to create an OpenShift on the Scheduler",
+            "match": {
+              "location": "stepDefs.HomeStepDefs.the_user_wants_to_create_an_OpenShift_on_the_Scheduler()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5449779000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the user clicks on Scheduler tab",
+            "match": {
+              "location": "stepDefs.HomeStepDefs.the_user_clicks_on_Scheduler_tab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1207430000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "the user clicks on createOpenshift icon",
+            "match": {
+              "location": "stepDefs.HomeStepDefs.the_user_clicks_on_createOpenshift_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 689176000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the user enters credentials",
+            "match": {
+              "location": "stepDefs.HomeStepDefs.the_user_enters_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 374937000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "the user clicks on save button",
+            "match": {
+              "location": "stepDefs.HomeStepDefs.the_user_clicks_on_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 924276000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "the user clicks on edit icon",
+            "match": {
+              "location": "stepDefs.HomeStepDefs.the_user_clicks_on_edit_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1005674000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "the user assigns to employee",
+            "match": {
+              "location": "stepDefs.HomeStepDefs.the_user_assigns_to_employee()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 248874000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "the user clicks on saveandpublish button",
+            "match": {
+              "location": "stepDefs.HomeStepDefs.the_user_clicks_on_saveandpublish_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 886701000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "the user will see successful entry message",
+            "match": {
+              "location": "stepDefs.HomeStepDefs.the_user_will_see_successful_entry_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 366893000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "the user clicks on shiftactions icon",
+            "match": {
+              "location": "stepDefs.HomeStepDefs.the_user_clicks_on_shiftactions_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 104548000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "the user clicks on delete button",
+            "match": {
+              "location": "stepDefs.HomeStepDefs.the_user_clicks_on_delete_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 143989000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "the user clicks on confirm delete button",
+            "match": {
+              "location": "stepDefs.HomeStepDefs.the_user_clicks_on_confirm_delete_button()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scenariofive"
+          }
+        ]
+      }
+    ],
+    "name": "Create OpenShift",
+    "description": "",
+    "id": "create-openshift",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/createOpenShift.feature",
+    "tags": []
+  }
+]
